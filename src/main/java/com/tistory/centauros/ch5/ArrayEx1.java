@@ -20,9 +20,9 @@ public class ArrayEx1 {
 
         int tmp = score[k+2] + score[4];
 
-        for (int i=0; i < 5; i++) {
+        /*for (int i=0; i < 5; i++) {
             System.out.printf("score[%d]:%d%n", i, score[i]);
-        }
+        }*/
 
         int index = 0;
         for (int i: score) {
