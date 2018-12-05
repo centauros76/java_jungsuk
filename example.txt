@@ -1,5 +1,5 @@
 hello world
 
-hello master1
+hello master
 
 hello dktstudy1
