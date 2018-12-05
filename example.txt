@@ -2,4 +2,4 @@ hello world
 
 hello master1
 
-hello dktstudy1
+hello dktstudy
