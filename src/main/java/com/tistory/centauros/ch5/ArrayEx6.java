@@ -9,14 +9,15 @@ import org.apache.commons.logging.LogFactory;
  */
 public class ArrayEx6 {
     public static void main(String[] args) {
-        Log log = LogFactory.getLog("studyLogger");
 
-        String[] arrStr = new String[5];
-        arrStr[0] = "A";
-        arrStr[1] = "B";
-        arrStr[2] = "C";
-        arrStr[3] = "D";
-        arrStr[4] = "E";
+        Integer[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        Integer[] b = a;
 
+        for (Integer x : a) {
+            for (Integer y : b) {
+                if (x.intValue() != 1)
+                    System.out.println(x.intValue() * y.intValue());
+            }
+        }
     }
 }
