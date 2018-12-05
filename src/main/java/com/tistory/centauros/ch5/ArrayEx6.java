@@ -1,7 +1,5 @@
 package com.tistory.centauros.ch5;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 
 /**
  * Created by Rene on 2018. 12. 5..
